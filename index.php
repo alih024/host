@@ -202,7 +202,7 @@ background-color: rgba(222, 220, 230, 1.2);
 
 
 
-#board{color:none;
+#board,#bbb{color:none;
  
   animation-name: a;
   animation-duration: 39s;
@@ -224,6 +224,20 @@ background-color: rgba(222, 220, 230, 1.2);
 
 h1{color: red}
 .h{  text-shadow: 2px 2px black; font-size: 40px;}
+            
+            
+            #bbb{background-color:whitesmoke;
+width: 500px;
+height: 100px;
+border-radius: 50px;
+border: solid red 1px;}
+
+ .a21{font-family: inherit;
+    font-size: 20px;
+    color: red;}
+
+            
+            
         </style>
     </head>
 
@@ -279,6 +293,16 @@ h1{color: red}
                 <div id="gameover"> <span id="finalscore">0</span>وەلامی راست هەلبژارد</div>            
             </div> 
  
+            
+             <div id="bbb"><br>
+     <sopn class='a21'>براوەی  یەکەم  :؟ </span><br>
+           <sopn class='a21'>براوەی  دووەم : ؟ </span><br>
+               <sopn class='a21'>براوەی  سێ یەم : ؟ </span><br>
+ </div> 
+
+            
+            
+            
             <!--audio files-->
             <div class="player">      
                 <audio id="startgame" autoplay  loop>
